@@ -1,7 +1,3 @@
-import numpy as np
-import pandas as pd
-
-
 def string_helloworld():
 	return "Hello World!"
 
@@ -17,6 +13,6 @@ def print_all_strings(name_list):
 		print(string_myname(name_i))
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
 
-	print_all_strings(name_list=["Biff", "Chip", "Kipper"])
+	print_all_strings(name_list=["Biff", "Chip", "Kipper", "Cla"])
